@@ -7,7 +7,7 @@ RUN tlmgr update --self && \
     tlmgr install latexmk minted
 
 RUN apt-get update -yq && \
-    apt-get install -yq biber python3-pygments graphviz inkscape gnuplot && \
+    apt-get install -yq python3-pygments graphviz inkscape gnuplot && \
     rm -rf /var/lib/apt/lists/*
 
 COPY .latexmkrc /root/.latexmkrc
