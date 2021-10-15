@@ -10,7 +10,6 @@ This image is mainly used for ```ARM64```-based systems, such as on Apple Silico
 
 ```
 docker run -it -v /host/directory:/home 123marvin123/cs-latex-docker
-
 ```
 
 And then you can execute ```latexmk```, for example:
